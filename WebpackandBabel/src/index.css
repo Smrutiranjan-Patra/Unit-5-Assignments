@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -14,9 +16,44 @@ textarea {
   resize: none;
   border: 2px solid brown;
   font-size: 18px;
-  padding: 5px 10px;
+  padding: 10px 10px;
 }
 #input {
   margin-bottom: 2%;
 }
+#task {
+  border: 1px solid brown;
+  padding: 15px;
+}
+#submit-btn {
+  padding: 2px;
+}
 
+.taskdata {
+  color: red;
+  margin: 5px 5px 7px 0;
+  font-size: 18px;
+}
+#head {
+  font-family: "Pushster", cursive;
+}
+
+.Done-btn {
+  margin-right: 7px;
+  padding: 2px;
+}
+.Cancel-btn {
+  padding: 2px;
+}
+.taskbox {
+  border: 1px solid lightblue;
+  margin: 5px;
+  padding: 10px;
+}
+
+.newtaskdata-style {
+  margin: 5px 5px 7px 0;
+  font-size: 18px;
+  color: lightgreen;
+  text-decoration: line-through;
+}
