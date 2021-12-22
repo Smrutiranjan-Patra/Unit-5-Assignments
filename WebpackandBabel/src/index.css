@@ -22,7 +22,6 @@ textarea {
   margin-bottom: 2%;
 }
 #task {
-  border: 1px solid brown;
   padding: 15px;
 }
 #submit-btn {
@@ -56,4 +55,9 @@ textarea {
   font-size: 18px;
   color: lightgreen;
   text-decoration: line-through;
+}
+#logo {
+  height: 36px;
+  width: 34px;
+  margin: 0 0 -2.7% 7.1%;
 }

@@ -1,8 +1,8 @@
 import("./index.css");
-import("./logo.png");
+import image from "./logo.png";
 
 let logo = document.getElementById("logo");
-logo.innerHtml = `<img src="./logo.png" id="logo">`;
+logo.src = image;
 
 let screen = document.getElementById("task");
 
@@ -11,7 +11,11 @@ submit.addEventListener("click", show);
 
 function show() {
   let input = document.getElementById("inputbox").value;
-  // console.log(input.length);
+  let len = screen.children.length;
+
+  if (len >= 0) {
+    screen.style.border = "1px solid brown";
+  }
   if (input.length > 0) {
     tasklist(input);
   }
