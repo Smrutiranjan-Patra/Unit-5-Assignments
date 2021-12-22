@@ -18,10 +18,12 @@ function show() {
   }
   if (input.length > 0) {
     tasklist(input);
+    input.innerText = "";
   }
 }
 
 const tasklist = (data) => {
+
   let box = document.createElement("div");
   let task = document.createElement("p");
   let done = document.createElement("button");
