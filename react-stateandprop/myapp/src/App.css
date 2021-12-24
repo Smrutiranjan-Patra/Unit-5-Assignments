@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+button {
+  margin: 0 5px;
+  padding: 2px;
+}
+.counter {
+  color: green;
+}
