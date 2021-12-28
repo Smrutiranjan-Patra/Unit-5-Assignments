@@ -1,0 +1,17 @@
+.product {
+  color: brown;
+  padding: 5px;
+  width: auto;
+  text-align: left;
+  /* border: 1px solid black; */
+}
+.remove {
+  width: 28px;
+}
+.productdiv {
+  /* border: 1px solid black; */
+  width: 35%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
