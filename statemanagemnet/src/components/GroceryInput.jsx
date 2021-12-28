@@ -8,7 +8,7 @@ const GroceryInput = ({show}) => {
   };
 
   const itemname = () => {
-    console.log(list);
+    // console.log(list);
     show(list);
   };
   return (
