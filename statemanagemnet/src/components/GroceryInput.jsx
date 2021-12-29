@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const GroceryInput = ({show}) => {
+const GroceryInput = ({ show }) => {
   const [list, setlist] = useState("");
 
   const item = (e) => {
@@ -8,7 +8,6 @@ const GroceryInput = ({show}) => {
   };
 
   const itemname = () => {
-    // console.log(list);
     show(list);
   };
   return (

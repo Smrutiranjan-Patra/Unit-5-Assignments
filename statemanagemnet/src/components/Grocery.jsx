@@ -7,12 +7,13 @@ import { nanoid } from "nanoid";
 const Grocery = () => {
   const [product, setProduct] = useState([]);
   const items = (d) => {
-    const id = {
+    const data = {
       title: d,
       product_id: nanoid(5),
     };
-    setProduct([...product, id]);
+    setProduct([...product, data]);
   };
+
   const handleDelete = (id) => {
     setProduct(product.filter((e) => e.product_id !== id));
   };
@@ -21,12 +22,8 @@ const Grocery = () => {
     <>
       <GroceryInput show={items} />
       <ul>
-        {product.map((e, i) => (
-          <Productlist
-            item={e.title}
-            key={e.product_id}
-            removedata={handleDelete}
-          />
+        {product.map((e) => (
+          <Productlist key={e.product_id} {...e} removedata={handleDelete} />
         ))}
       </ul>
     </>
