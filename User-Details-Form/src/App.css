@@ -1,0 +1,13 @@
+/* .App{
+  text-align: center;
+  background-color:aquamarine;
+  
+} */
+
+#flex form div {
+  margin: 10px;
+}
+
+#flex form div label {
+  margin-right: 7px;
+}
