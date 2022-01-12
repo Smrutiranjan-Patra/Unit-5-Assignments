@@ -1,2 +1,1 @@
-# stopwatch
-Created with CodeSandbox
+React hook assignment 
