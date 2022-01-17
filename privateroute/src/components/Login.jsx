@@ -18,7 +18,7 @@ export const Login = () => {
   };
   return !token ? (
     <div>
-      Welcome to Login
+      <h4>Welcome to Login</h4>
       <br />
       <input
         name="email"

@@ -14,16 +14,14 @@ export default function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />}>
-          {" "}
-        </Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/product" element={<Product />}></Route>
-        <Route path="/users" element={<Users />}></Route>
-        <Route path="/login" element={<Login />}></Route>
-        <Route path="/dashboard" element={<Dashboard />}></Route>
-        <Route path="/setting" element={<Setting />}></Route>
+        <Route path="/" element={<Home />} className="route"></Route>
+        <Route path="/about" element={<About />} className="route"></Route>
+        <Route path="/contact" element={<Contact />} className="route"></Route>
+        <Route path="/product" element={<Product />} className="route"></Route>
+        <Route path="/users" element={<Users />} className="route"></Route>
+        <Route path="/login" element={<Login />} className="route"></Route>
+        <Route path="/dashboard" element={<Dashboard />} className="route"></Route>
+        <Route path="/setting" element={<Setting />} className="route"></Route>
       </Routes>
     </div>
   );
